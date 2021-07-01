@@ -99,6 +99,9 @@ Plug 'mhinz/vim-startify'
 " vim文件类型支持
 Plug 'ryanoasis/vim-devicons'
 
+" 多列操作
+Plug 'terryma/vim-multiple-cursors'
+
 call plug#end()
 
 
