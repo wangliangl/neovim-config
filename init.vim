@@ -84,6 +84,9 @@ Plug 'junegunn/fzf.vim'
 " vim 主题
 Plug 'fatih/molokai'
 
+" vim-one 主题
+Plug 'rakr/vim-one'
+
 " vim  go代码插件
 Plug 'fatih/vim-go'
 
@@ -128,7 +131,10 @@ syntax enable
 set t_Co=256
 let g:rehash256 = 1
 let g:molokai_original = 1
-colorscheme molokai
+"colorscheme molokai
+let g:one_allow_italics = 1 
+colorscheme one
+set background=dark
 
 
 " 让输入上方，搜索列表在下方
