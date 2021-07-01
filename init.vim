@@ -81,11 +81,11 @@ Plug 'honza/vim-snippets'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
-" vim 主题
+" vim 主题 molokai
 Plug 'fatih/molokai'
 
-" vim-one 主题
-Plug 'rakr/vim-one'
+" vim 主题
+Plug 'morhetz/gruvbox'
 
 " vim  go代码插件
 Plug 'fatih/vim-go'
@@ -95,6 +95,8 @@ Plug 'Yggdroot/indentLine'
 
 " 个性化文件列表
 Plug 'mhinz/vim-startify'
+
+
 call plug#end()
 
 
@@ -127,14 +129,17 @@ augroup go
 augroup END
 
 " Colorscheme
-syntax enable
-set t_Co=256
-let g:rehash256 = 1
-let g:molokai_original = 1
-"colorscheme molokai
-let g:one_allow_italics = 1 
-colorscheme one
-set background=dark
+" syntax enable
+" set t_Co=256
+" let g:rehash256 = 1
+" let g:molokai_original = 1
+" let g:one_allow_italics = 1 
+" colorscheme molokai
+
+set bg=dark
+colorscheme gruvbox
+"去掉两边的scrollbar
+set guioptions=
 
 
 " 让输入上方，搜索列表在下方
