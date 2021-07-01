@@ -96,6 +96,8 @@ Plug 'Yggdroot/indentLine'
 " 个性化文件列表
 Plug 'mhinz/vim-startify'
 
+" vim文件类型支持
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
