@@ -71,7 +71,7 @@ Plug 'tpope/vim-commentary'
 Plug 'easymotion/vim-easymotion'
 
 " vim 括号匹配插件
-Plug 'jiangmiao/auto-pairs'
+" Plug 'jiangmiao/auto-pairs'
 
 " vim 代码片段
 Plug 'SirVer/ultisnips'
