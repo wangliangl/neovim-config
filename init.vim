@@ -40,9 +40,6 @@ set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030
 " 快捷操作替换空格为/
 map <space> /
 map <c-space> ?
-map <leader><leader>c :nohlsearch<CR>
-" 快速保存
-nmap <leader>w :w!<cr>
 
 call plug#begin('~/.vim/plugged')
 
@@ -110,6 +107,10 @@ call plug#end()
 
 " Set leader shortcut to a comma ','. By default it's the backslash
 let mapleader = ','
+
+map <leader><leader>c :nohlsearch<CR>
+" 快速保存
+nmap <leader>w :w!<cr>
 
 nnoremap <leader>v :NERDTreeFind<cr>
 nnoremap <leader>n :NERDTreeToggle<cr>
