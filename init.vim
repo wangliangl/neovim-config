@@ -101,6 +101,8 @@ Plug 'terryma/vim-multiple-cursors'
 
 " 错误检测
 Plug 'dense-analysis/ale'
+" 有道在线翻译
+Plug 'ianva/vim-youdao-translater'
 
 call plug#end()
 
@@ -243,3 +245,8 @@ nmap <Leader>d :ALEDetail<CR>
 let g:ale_linters = {
     \ 'go': ['gopls'],
     \ }
+
+"在线翻译
+vnoremap <silent> <C-T> :<C-u>Ydv<CR>
+nnoremap <silent> <C-T> :<C-u>Ydc<CR>
+
